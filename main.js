@@ -1,0 +1,14 @@
+//1
+console.log(document.getElementsByTagName('div')[2].firstElementChild);
+//2
+console.log(document.getElementsByTagName('div')[2].lastElementChild);
+//3
+console.log(document.getElementsByTagName('div')[2].getElementsByTagName('p')[0].getElementsByTagName('i')[0]);
+//4
+console.log(document.getElementsByTagName('div')[2].getElementsByTagName('p')[1].getElementsByTagName('b')[0]);
+//5
+console.log(document.getElementsByTagName('div')[2].getElementsByTagName('p')[0].getElementsByTagName('i')[0].parentElement);
+//6
+console.log(document.getElementsByTagName('div')[2].getElementsByTagName('p')[1].getElementsByTagName('b')[0].parentElement);
+//7
+console.log(document.getElementsByTagName('div')[2].firstElementChild.nextElementSibling);
